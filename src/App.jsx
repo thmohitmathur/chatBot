@@ -59,7 +59,7 @@ const App = () => {
         <div className="chat-header">
           <div className="header-info">
             <ChatbotIcon/>
-            <h2 className="logo-text">ReNa Bot</h2>
+            <h2 className="logo-text">ReNNa Bot</h2>
           </div>
           <button onClick={() => setShowChatbot(prev => !prev)} className="material-symbols-rounded" > keyboard_arrow_down </button>
         </div>
