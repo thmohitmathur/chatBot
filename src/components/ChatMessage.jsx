@@ -1,22 +1,22 @@
 import ChatbotIcon from "./chatbotIcon";
 
 const ChatMessage = ({ chat }) => {
-  // Function to properly format messages with embedded links on a new line
+  // Function to format links properly
   const formatMessage = (text) => {
-    const urlRegex = /(https?:\/\/[^\s]+)/g; // Matches URLs
+    const urlRegex = /(https?:\/\/[^\s\)\]]+)/g; // Matches URLs and prevents capturing brackets
 
     return text
       .replace(/\[?\s*(https?:\/\/[^\s]+)\s*\]?/g, (match, url) => {
-        return `<br><a href="${url}" target="_blank" rel="noopener noreferrer" style="
+        return `<br><a href="${url.trim()}" rel="noopener noreferrer" style="
           color: white;
-          background-color: #007bff;
+          background-color:rgb(101, 174, 253);
           padding: 4px 8px;
           border-radius: 5px;
           text-decoration: none;
           font-weight: bold;
           display: inline-block;
           margin-top: 5px;
-        ">🔗 Visit here</a>`;
+        ">🔗 Visit here <br/></a>`;
       });
   };
 
