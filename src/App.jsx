@@ -42,7 +42,16 @@ const App = () => {
           botResponse = "Renaissance is the National Techno-Cultural Fest of JECRC College, featuring a blend of technical and cultural events that showcase talent and innovation. Would you like to know more about specific events?";
           break;
         case "About Events":
-          botResponse = "Here are the events you can learn more about: <br> 1. <a href='#' class='chat-option' data-option='Cultural Events'>Cultural Events</a> <br> 2. <a href='#' class='chat-option' data-option='Technical Events'>Technical Events</a> <br> 3. <a href='#' class='chat-option' data-option='Splash Events'>Splash Events</a>";
+          botResponse = "Here are the events you can learn more about: <br> 1. <a href='#' class='chat-option' data-option='Cultural Events'>Cultural Events</a> <br> 2. <a href='#' class='chat-option' data-option='Splash Events'>Splash Events</a> <br> 3. <a href='#' class='chat-option' data-option='Technical Events'>Technical Events</a>";
+          break;
+        case "Cultural Events":
+          botResponse = "Cultural Events are a way to showcase your abilities in front of a crowd and win prizes. Here are some of the cultural events: <br> 1. Inaugural Ceremony <br> 2. Sarega (Prelims) <br> 3. Sarega (Finals) <br> 4. Masterchef Challenge <br> 5. RapZap Prelims <br> 6. Rockathon <br> 7. RapZap <br> 8. DJ War <br> 9. Guest DJ <br> 10. Beat The Beats <br> 11. Footloose <br> 12. Hunar <br> 13. Battle Mania <br> 14. Adaa <br> 15. Guest Band <br> 16. Navras <br> 17. Kavya <br> 18. Shor Bazzar <br> 19. Bootstrapping <br> 20. Celebrity Night";
+          break;
+        case "Splash Events":
+          botResponse = "Splash Events are the events in which you can play games and win prizes. Here are some of the splash events: <br> 1. Gully Cricket <br> 2. Half Court Basketball (3V3) <br> 3. Beg Borrow Steal <br> 4. Treasure Hunt <br> 5. Lan Gaming <br> 6. IPL Auction <br> 7. Sac Race <br> 8. Game of Cinema <br> 9. Relay Race <br> 10. Tug of War <br> 11. Arm Wrestling <br> 12. Chess <br> 13. 3 Leg Race";
+          break;
+        case "Technical Events":
+          botResponse = "Technical Events are the events in which you can showcase your technical skills and win prizes. Here are some of the technical events: <br> 1. Webathon <br> 2. Rockathon";
           break;
         case "Help":
           botResponse = "If you need further assistance, feel free to contact us at: +91 98765 43210";
