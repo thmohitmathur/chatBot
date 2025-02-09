@@ -15,17 +15,13 @@ const ChatMessage = ({ chat }) => {
       const cleanUrl = url.replace(/[\[\]]/g, "").trim();
       return `<br><a href="${cleanUrl}" rel="noopener noreferrer" style="
         color: white;
-        background-color:rgb(7, 9, 10);
+        background-color: rgb(101, 174, 253);
         padding: 4px 8px;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         display: inline-block;
         margin-top: 5px;
-        filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
-        
-        transition: background-color 0.3s ease;
-        " onmouseover="this.style.backgroundColor='#333'" onmouseout="this.style.backgroundColor='#72b3f8'"
       ">🔗 Visit here <br/></a>`;
     });
 
@@ -35,15 +31,14 @@ const ChatMessage = ({ chat }) => {
         color: white;
         background-color: black;
         padding: 8px 16px;
-        border-radius:10px;
+        border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         display: inline-block;
         margin: 5px 0;
         border: 1px solid #ccc;
         cursor: pointer;
-        transition: background-color 0.3s ease;
-      " onmouseover="this.style.backgroundColor='#333'" onmouseout="this.style.backgroundColor='black'">${text}</a>`;
+      ">${text}</a>`;
     });
 
     return text;

@@ -69,15 +69,17 @@ const App = () => {
         <div className="chatbot-notification">
           <p>How can I help you? Let's chat!</p>
           <button onClick={handleTogglerClick} className="close-notification">
-            <span className="material-symbols-rounded">close</span>
+          
           </button>
         </div>
       )}
 
+      
+
       {/* Chatbot Toggler Button */}
       <button onClick={handleTogglerClick} id="chatbot-toggler">
-        <span className="material-symbols-rounded">mode_comment</span>
-        <span className="material-symbols-rounded">close</span>
+        <ChatbotIcon/>
+        
       </button>
 
       {/* Chatbot Popup */}
