@@ -1,17 +1,12 @@
 import ChatbotIcon from "./chatbotIcon";
 
 const ChatMessage = ({ chat }) => {
-  // Function to format links and buttons properly
   const formatMessage = (text) => {
-    // Regex to match URLs, even if they are wrapped in brackets
     const urlRegex = /\[?\s*(https?:\/\/[^\s\]]+)\s*\]?/g;
-
-    // Regex to match button options (e.g., <a href='#' class='chat-option' data-option='...'>...</a>)
     const buttonRegex = /<a href='#' class='chat-option' data-option='(.*?)'>(.*?)<\/a>/g;
 
     // Format URLs as links
     text = text.replace(urlRegex, (match, url) => {
-      // Remove any brackets from the URL
       const cleanUrl = url.replace(/[\[\]]/g, "").trim();
       return `<br><a href="${cleanUrl}" rel="noopener noreferrer" style="
         color: white;
