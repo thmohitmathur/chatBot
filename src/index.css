@@ -36,7 +36,7 @@ body{
     position: fixed;
     bottom: 90px;
     right: 30px;
-    background-color: #333;
+    background-color: #00c3ff;
     color: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -96,27 +96,16 @@ body{
     overflow: hidden;
     transform-origin: bottom right;
 
-	background: linear-gradient(-45deg, #000000, #3f3f3f, #898989, #b6b6b6);
+	background: #1d1d1d;
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
 
     border-radius: 15px;
     box-shadow: 0 0 128px 0  rgba(0,0,0,0.1),
         0 32px 64px -48px rgba(0,0,0,0.5);
-    transition: all .1s ease;
+    /* transition: all .1s ease; */
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+
 
 .container.show-chatbot .chatbot-popup{
     opacity: 1;
@@ -129,7 +118,7 @@ body{
     padding: 15px 22px;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(255,255,255,0.7);
+    background-color: #222629;
 
 }
 
@@ -214,7 +203,7 @@ body{
     fill: #fff;
     align-self: flex-end;
     margin-bottom: 2px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: #00c3ff;
     border-radius: 50%;
 }
 
@@ -227,7 +216,7 @@ body{
 }
 
 .chat-body .bot-message .message-text{
-    background-color: rgba(255,255,255,0.5);
+    background-color:rgba(48,54,56,255);
     color: white;
     border-radius: 13px 13px 13px 3px;
 }
@@ -238,14 +227,14 @@ body{
 }
 
 .chat-body .user-message .message-text{
-    color: #fff;
+    color: #000;
     background: #59d7ff;
     border-radius: 13px 13px 3px 13px;
 }
 
 .chat-footer{
     position: relative;
-    background-color: rgba(255,255,255,0.7);
+    background-color: #222629;
     bottom: 0;
     width: 100%;
     padding: 15px 22px 20px;
@@ -264,12 +253,12 @@ body{
 .chat-footer .chat-form{
     display: flex;
     align-items: center;
-    background-color: rgba(255,255,255,0.7);
+    background-color: #222629;
     border-radius: 32px;
     /* outline: 1px solid #CCCCE5; */
     box-shadow: 0 0 8px rgba(0,0,0,0.06);
 }
-
+    
 /* .chat-footer .chat-form:focus-within{
     outline: 2px solid white;
 } */
@@ -278,8 +267,8 @@ body{
     border: none;
     outline: none;
     width: 100%;
-    background-color: rgba(255,255,255,0.7);
-    color: black;
+    background-color: #222629;
+    color: #fff;
     height: 47px;
     padding: 0 17px;
     font-size: .95rem;
