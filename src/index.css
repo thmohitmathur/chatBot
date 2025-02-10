@@ -309,6 +309,32 @@ body{
     background-color: rgba(255,255,255,0.1);
 }
 
+/* Chat link styling */
+/* Chat link styling */
+.chat-link {
+    color: white;
+    background-color: rgb(101, 174, 253);
+    padding: 4px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  /* Chat option button styling */
+  .chat-option {
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
 
 
 

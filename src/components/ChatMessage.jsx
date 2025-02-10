@@ -2,41 +2,17 @@ import ChatbotIcon from "./chatbotIcon";
 
 const ChatMessage = ({ chat }) => {
   const formatMessage = (text) => {
-    const urlRegex = /\[?\s*(https?:\/\/[^\s\]]+)\s*\]?/g;
-    const buttonRegex = /<a href='#' class='chat-option' data-option='(.*?)'>(.*?)<\/a>/g;
+    // Check if the text already contains an anchor tag to avoid duplicate formatting
+    if (text.includes("<a href=")) {
+      return text; // Return as is if it already has links formatted
+    }
 
-    // Format URLs as links
-    text = text.replace(urlRegex, (match, url) => {
-      const cleanUrl = url.replace(/[\[\]]/g, "").trim();
-      return `<br><a href="${cleanUrl}" rel="noopener noreferrer" style="
-        color: white;
-        background-color: rgb(101, 174, 253);
-        padding: 4px 8px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        margin-top: 5px;
-      ">🔗 Visit here <br/></a>`;
+    // Regex to match and format raw URLs (that are NOT inside <a> tags)
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+    return text.replace(urlRegex, (match) => {
+      return `<a href="${match}" target="_blank" rel="noopener noreferrer" class="chat-link">🔗 Visit here</a>`;
     });
-
-    // Format buttons with a black background
-    text = text.replace(buttonRegex, (match, option, text) => {
-      return `<a href="#" class="chat-option" data-option="${option}" style="
-        color: white;
-        background-color: black;
-        padding: 8px 16px;
-        border-radius: 5px;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        margin: 5px 0;
-        border: 1px solid #ccc;
-        cursor: pointer;
-      ">${text}</a>`;
-    });
-
-    return text;
   };
 
   return (
