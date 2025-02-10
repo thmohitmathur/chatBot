@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 }
 
 body{
-    font-family: "Roboto Mono", serif;
+    font-family: "Inter", serif;
     width: 100%;
     min-height: 100vh;
     background: url('./assets/aibg.jpg');
@@ -133,8 +134,8 @@ body{
     width: 35px;
     padding: 6px;
     flex-shrink: 0;
-    fill: #22272a;
-    background-color: #0f0f0f;
+    fill: #222629;
+    background-color: #1d1d1d;
     border-radius: 50%;
 }
 
@@ -165,12 +166,12 @@ body{
     padding-top: 2px;
     border-radius: 50%;
     margin-right: -10px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: #222629;
     transition: .2s ease;
 }
 
 .chat-header button:hover{
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.1);
 }
 
 .chat-body{
@@ -203,7 +204,7 @@ body{
     fill: #fff;
     align-self: flex-end;
     margin-bottom: 2px;
-    background-color: #00c3ff;
+    background-color: #1b1b1b;
     border-radius: 50%;
 }
 
@@ -286,7 +287,7 @@ body{
     margin-right: 6px;
     flex-shrink: 0;
     border-radius: 50%;
-    background-color: rgba(255,255,255,0.1);
+    background-color: #222629;
     transition: .2s ease;
 }
 
@@ -295,7 +296,8 @@ body{
 } 
 
 .chat-form button:hover{
-    background-color: rgba(255,255,255,0.1);
+    height: 40px;
+    width: 40px;
 }
 
 /* Chat link styling */
@@ -313,8 +315,8 @@ body{
   
   /* Chat option button styling */
   .chat-option {
-    color: white;
-    background-color: black;
+    color: #fff;
+    background-color: #b6b6b643;
     padding: 8px 16px;
     border-radius: 5px;
     text-decoration: none;
