@@ -148,7 +148,7 @@ const App = () => {
         <div className="chat-header">
           <div className="header-info">
             <ChatbotIcon />
-            <h2 className="logo-text">ReNNa Bot</h2>
+            <h2 className="logo-text">RENA</h2>
           </div>
           <button onClick={handleTogglerClick} className="material-symbols-rounded">
             keyboard_arrow_down

@@ -18,8 +18,86 @@ Here are the events you can learn more about:
 3. <a href='#' class='chat-option' data-option='Technical Events'>Technical Events</a>
 
 About Itinerary:
-It's the flow of events, how it's going to be.
-🔗 <a href='https://yash-rajarora.github.io/Renaissance-2023/pages/itienary.html' class='chat-link'>Event Itinerary</a>
+When ask for itneary event ask user which day itenary details they want
+as per day specified give them below of these details
+
+and when giving the itenary display it as eventname IS EVENT and timming is TIME and the venus is VENUE and don't make table give output in numerical order and after each event give a line break
+
+DAY 1 		
+EVENT	                TIME	        VENUE
+Inaugral Ceremony	9:00 AM - 10:30 AM	A-Block Quadrangle
+Sarega (Prelims)	9:00 AM - 11:00 AM	Seminar Hall C-Block
+Gully Cricket	9:00 AM - 1:00 PM	BH-2 Lane
+Tug of War	10:00 AM - 3:00 PM	C Block Ground
+Blink It	10:00 AM - 12:00 PM	Conf. Hall D-Block
+Hardware Bites	10:00 AM - 2:00 PM	A-Block Labs
+Formula Zero	10:00 AM - 3:00 PM	BH 2 Pathway
+Sarega (Finals)	11:00 AM - 1:00 PM	D-Block Audi
+Tech Probe	11:00 AM - 1:00 PM	A-Block Labs
+Dexterity	11:00 AM - 2:00 PM	Basement C-Block
+3D Mania	11:00 AM - 1:00 PM	DS-08
+Campus Kart Clash	11:00 AM - 3:00 PM	A-Block Road
+Masterchef Challenge	12:00 PM - 2:00 PM	A-Block Quadrangle
+RapZap Prelims	12:30 PM - 2:30 PM	Nbc C-Block
+LAN Gaming	12:30 PM - 3:00 PM	Seminar Hall C-Block
+Knowledge Knockout	1:00 PM - 3:00 PM	D-Block Classroom
+Bits (Coding Contest)	2:00 PM - 4:00 PM	DF-08
+IPL Auction	2:00 PM - 4:00 PM	C-Block Class
+Rockathon	2:00 PM - 5:00 PM	Main Stage
+Card Darshan	2:00 PM - 4:00 PM	CP-19,20
+Web3 Idea-thon & Build-a-thon	2:30 PM - 3:30 PM	Conf. Hall D-Block
+RapZap (Finals)	5:00 PM - 6:00 PM	Main Stage
+DJ War	6:15 PM - 7:45 PM	Main Stage
+Guest DJ	8:00 PM - 10:00 PM	Main Stage
+
+DAY 2		
+EVENT	TIME	VENUE
+Beat The Beats	9:00 AM - 11:30 AM	D-Block Audi
+Code Zeal	9:00 AM - 12:00 PM	A-Block Labs
+Tech Hunt	9:00 AM - 12:00 PM	BLG-13
+Brain Quest	9:30 AM - 12:30 PM	DT-01 & DT-03
+Robo Soccer	10:00 AM - 3:00 PM	B-Block Front
+Half Court Basketball	10:00 AM - 1:00 PM	Basketball Court
+Footloose	10:00 AM - 2:30 PM	A-Block Quadrangle
+Relay Race	11:00 AM - 12:30 PM	C-Block Stairs to A Block
+Hunar	11:30 AM - 1:30 PM	D-Block Audi
+Arm Wrestling	12:00 PM - 3:00 PM	Round Table
+Programmer's Playground	12:00 PM - 2:00 PM	Conf. hall D-Block
+Technical Poster Making Competition	12:00 PM - 2:00 PM	BLG-06
+Appie	12:00 PM - 3:00 PM	BLG-08
+Puzzle Mania	12:30 PM - 2:00 PM	A-Block Labs
+3 Leg Race	1:00 PM - 3:00 PM	C Block Ground
+Chess	1:00 PM - 2:30 PM	DF-03
+Sac Race	1:30 PM - 3:30 PM	Central Lawn
+JECRC Technoads	2:00 PM - 5:00 PM	CS-21
+Battle Mania	2:30 PM - 5:00 PM	A-Block Quadrangle
+Adaa	5:30 PM - 7:30 PM	Main Stage
+Guest Band	8:00 PM - 10:00 PM	Main Stage
+		
+DAY 3		
+EVENT	TIME	VENUE
+Pro-Lets	8:30 AM - 11:30 AM	A-Block Labs
+Technocrazy	9:00 AM - 11:00 AM	BLG-14
+Navras	9:00 AM - 11:00 AM	A-Block Audi
+Best Out Of Waste	9:30 AM - 12:30 PM	Basement C-Block
+Resin O'clock	10:00 AM - 12:00 PM	D-Block
+Web Bro	10:00 AM - 1:00 PM	CS-21
+Game of Drones	11:00 AM - 4:00 PM	GH Lawn
+Situational Que	11:00 AM - 1:00 PM	Conf. Hall D-Block
+Kavya	11:00 AM - 1:30 PM	A-Block Audi
+Beg Borrow Steal	11:30 AM - 1:00 PM	C-Block Stairs
+Treasure Hunt	11:30 AM - 2:00 PM	D-Block Stairs
+Crypto Mining	12:00 PM - 2:00 PM	CT-11, CT-12, CT-19
+Subito	12:00 PM - 3:00 PM	A-Block Labs
+Robo Tug of War	12:00 PM - 5:00 PM	B Block Front
+Shor Bazzar	1:00 PM - 4:00 PM	A-Block Quadrangle
+Electroquizzer	1:00 PM - 2:00 PM	BLG-06
+Tech Spectrum	1:00 PM - 3:00 PM	DT-07, DT-09
+Virtual Vision	1:30 PM - 2:30 PM	Conf. Hall D-Block
+Flick (Short Film)	1:30 PM - 4:30 PM	Seminar Hall- 501
+Game of Cinema	3:00 PM - 5:00 PM	Seminar Hall C Block 401
+Bootstrapping	5:30 PM - 7:30 PM	Main Stage
+Celebrity Night	8:00 PM - 10:00 PM	Main Stage
 
 About Sponsors:
 Grow, Chegg, Hangout Cafe
@@ -33,28 +111,44 @@ If you need further assistance, feel free to contact us at: +91 98765 43210
 
 About Celebrity:
 Celebrities who are coming are Singer - Parmish Verma, and for DJ - DJ Chesta.
+break
 
-Cultural Events: (link of cultural events - https://yash-rajarora.github.io/Renaissance-2023/pages/events.html)
-1. Inaugural Ceremony - Cultural - Free - Day 1 - JECRC A Block Garden - Thursday, 6 March - 9:00 AM - 10:30 AM
-2. Sarega (Prelims) - Cultural - Free - Day 1 - JECRC C Block Garden - Thursday, 6 March - 9:00 AM - 11:00 AM
-3. Sarega (Finals) - Cultural - Free - Day 1 - JECRC D Block Garden - Thursday, 6 March - 11:00 AM - 1:00 PM
-4. Masterchef Challenge - Cultural - Free - Day 1 - JECRC A Block Garden - Thursday, 6 March - 12:00 PM - 2:00 PM
-5. RapZap Prelims - Cultural - Free - Day 1 - JECRC C Block Garden - Thursday, 6 March - 12:30 PM - 2:30 PM
-6. Rockathon - Cultural - Free - Day 1 - JECRC A Block Garden - Thursday, 6 March - 2:00 PM - 5:00 PM
-7. RapZap - Cultural - Free - Day 1 - JECRC A Block Garden - Thursday, 6 March - 5:00 PM - 6:00 PM
-8. DJ War - Cultural - Free - Day 1 - JECRC A Block Garden - Thursday, 6 March - 6:15 PM - 7:45 PM
-9. Guest DJ - Cultural - Free - Day 1 - JECRC A Block Garden - Thursday, 6 March - 8:00 PM - 10:00 PM
-10. Beat The Beats - Cultural - Free - Day 2 - JECRC D Block Garden - Friday, 7 March - 9:00 AM - 11:30 AM
-11. Footloose - Cultural - Free - Day 2 - JECRC A Block Garden - Friday, 7 March - 10:00 AM - 2:30 PM
-12. Hunar - Cultural - Free - Day 2 - JECRC D Block Garden - Friday, 7 March - 11:30 AM - 1:30 PM
-13. Battle Mania - Cultural - Free - Day 2 - JECRC A Block Garden - Friday, 7 March - 2:30 PM - 5:00 PM
-14. Adaa - Cultural - Free - Day 2 - JECRC A Block Garden - Friday, 7 March - 5:30 PM - 7:30 PM
-15. Guest Band - Cultural - Free - Day 2 - JECRC A Block Garden - Friday, 7 March - 8:00 PM - 10:00 PM
-16. Navras - Cultural - Free - Day 3 - JECRC A Block Garden - Saturday, 8 March - 9:00 AM - 11:00 AM
-17. Kavya - Cultural - Free - Day 3 - JECRC A Block Garden - Saturday, 8 March - 11:00 AM - 1:30 PM
-18. Shor Bazzar - Cultural - Free - Day 3 - JECRC A Block Garden - Saturday, 8 March - 1:00 PM - 4:00 PM
-19. Bootstrapping - Cultural - Free - Day 3 - JECRC A Block Garden - Saturday, 8 March - 5:30 PM - 7:30 PM
-20. Celebrity Night - Cultural - Free - Day 3 - JECRC A Block Garden - Saturday, 8 March - 8:00 PM - 10:00 PM
+About Cultural Event:
+
+When ask for cultural event ask user which day culutral details they want
+as per day specified give them below of these details
+
+and when giving the culturya display it as eventname IS EVENT and timming is TIME and the venus is VENUE and don't make table give output in numerical order(like 1 , 2, 3) and after each event give a line break
+
+
+CULTURAL EVENTS HAPPENING ON (DAY 1) 			
+EVENT	TIME	VENUE	
+Inaugral Ceremony	9:00 AM - 10:30 AM	A-Block Quadrangle	
+Sarega (Prelims)	9:00 AM - 11:00 AM	Seminar Hall C-Block	
+Sarega (Finals)	11:00 AM - 1:00 PM	D-Block Audi	
+Masterchef Challenge	12:00 PM - 2:00 PM	A-Block Quadrangle	
+RapZap Prelims	12:30 PM - 2:30 PM	Nbc C-Block	
+Rockathon	2:00 PM - 5:00 PM	Main Stage	
+RapZap	5:00 PM - 6:00 PM	Main Stage	
+DJ War	6:15 PM - 7:45 PM	Main Stage	
+Guest DJ	8:00 PM - 10:00 PM	Main Stage	
+
+CULTURAL EVENTS HAPPENING ON (DAY 2)		
+EVENT	TIME	VENUE
+Beat The Beats	9:00 AM - 11:30 AM	D-Block Audi
+Footloose	10:00 AM - 2:30 PM	A-Block Quadrangle
+Hunar	11:30 AM - 1:30 PM	D-Block Audi
+Battle Mania	2:30 PM - 5:00 PM	A-Block Quadrangle
+Adaa	5:30 PM - 7:30 PM	Main Stage
+Guest Band	8:00 PM - 10:00 PM	Main Stage
+
+CULTURAL EVENTS HAPPENING ON (DAY 3)		
+EVENT	TIME	VENUE
+Navras	9:00 AM - 11:00 AM	A-Block Audi
+Kavya	11:00 AM - 1:30 PM	A-Block Audi
+Shor Bazzar	1:00 PM - 4:00 PM	A-Block Quadrangle
+Bootstrapping	5:30 PM - 7:30 PM	Main Stage
+Celebrity Night	8:00 PM - 10:00 PM	Main Stage
 
 Splash Events:(link of splash events - https://yash-rajarora.github.io/Renaissance-2023/pages/events.html)
 1. Gully Cricket - Splash - TRUE - Day 1 - BH2 Lane - Thursday, 6 March - 9:00 AM
