@@ -120,7 +120,6 @@ as per day specified give them below of these details
 
 and when giving the culturya display it as eventname IS EVENT and timming is TIME and the venus is VENUE and don't make table give output in numerical order(like 1 , 2, 3) and after each event give a line break
 
-
 CULTURAL EVENTS HAPPENING ON (DAY 1) 			
 EVENT	TIME	VENUE	
 Inaugral Ceremony	9:00 AM - 10:30 AM	A-Block Quadrangle	
@@ -149,6 +148,35 @@ Kavya	11:00 AM - 1:30 PM	A-Block Audi
 Shor Bazzar	1:00 PM - 4:00 PM	A-Block Quadrangle
 Bootstrapping	5:30 PM - 7:30 PM	Main Stage
 Celebrity Night	8:00 PM - 10:00 PM	Main Stage
+
+when someone name or ask about specific event name the refere the below for the answer
+
+Event Name: CAD-DARSHAN (Express your Cad skill)
+
+About the Event: The event here explores the understanding of AutoCAD. This event will be conducted in two rounds. First round comprising the questions based on basic AutoCAD knowledge followed by second round in which participants will have to draw the plan of dimensions provided.
+Rules:
+1. It is an individual Participant's event.
+2. Participant will have to work on AutoCAD 2010.
+3. Use of any other electronic device and accessories is strictly prohibited.
+4. Judge's decision will be final, can't be argued.
+
+Entry Fee: INR 200 per team
+Prize: Winner: Rs 3,000/-
+Runner Up: Rs 2,000/-
+2nd Runner up: Rs 1,000/-
+Venue: CP19, 20 (CE) C-Block
+19thMarch
+Time: 2PM-4PM
+
+Faculty coordinators :-
+Mr. Pradeep Kumar Jain
+Mr. Jitesh Kumar Jain
+Mr. Sumit Saini
+
+Student coordinates
+Ritik Garg (9587477652)
+Akshay Tyagi (7726886779)
+
 
 Splash Events:(link of splash events - https://yash-rajarora.github.io/Renaissance-2023/pages/events.html)
 1. Gully Cricket - Splash - TRUE - Day 1 - BH2 Lane - Thursday, 6 March - 9:00 AM
