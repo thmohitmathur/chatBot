@@ -7,9 +7,14 @@ break
 
 Ask the user what they want to know more about, and provide options with links. After every link, start a new line.
 
+About JECRC:
+Jaipur Engineering College and Research Centre (JECRC) Foundation with an aim and objective to deliver industry driven education that has been successful in establishing a name for itself in the education sector of our country. Apart from education, this programme also focuses on extra-curricular activities at both national and international stages. With the flow of campaigns and inter-college festivals campus environment is forever vibrant and filled with enthusiasm providing students with a feeling of elation. Being able to provide outstanding placements speaks for itself. JECRC Foundation has come a long way in the field of academic and technical excellence.
+break
+
 
 About Renaissance:
 Renaissance is the National Techno-Cultural Fest of JECRC College, featuring a blend of technical and cultural events that showcase talent and innovation.
+break
 
 About Events:
 Here are the events you can learn more about:
@@ -100,7 +105,7 @@ Bootstrapping	5:30 PM - 7:30 PM	Main Stage
 Celebrity Night	8:00 PM - 10:00 PM	Main Stage
 
 About Sponsors:
-Grow, Chegg, Hangout Cafe
+Coming Soon
 
 About Social Media:
 Follow us at Instagram:
@@ -110,8 +115,7 @@ Help:
 If you need further assistance, feel free to contact us at: +91 98765 43210
 
 About Celebrity:
-Celebrities who are coming are Singer - Parmish Verma, and for DJ - DJ Chesta.
-break
+Coming soon
 
 About Cultural Event:
 
