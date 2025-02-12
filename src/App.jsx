@@ -51,8 +51,44 @@ const App = () => {
           botResponse = "Splash Events are the events in which you can play games and win prizes. Here are some of the splash events: <br> 1. Gully Cricket <br> 2. Half Court Basketball (3V3) <br> 3. Beg Borrow Steal <br> 4. Treasure Hunt <br> 5. Lan Gaming <br> 6. IPL Auction <br> 7. Sac Race <br> 8. Game of Cinema <br> 9. Relay Race <br> 10. Tug of War <br> 11. Arm Wrestling <br> 12. Chess <br> 13. 3 Leg Race";
           break;
         case "Technical Events":
-          botResponse = "Technical Events are the events in which you can showcase your technical skills and win prizes. Here are some of the technical events: <br> 1. Webathon <br> 2. Rockathon";
-          break;
+          botResponse = "Technical Events are the events in which you can showcase your technical skills and win prizes. Here are some of the technical events: <br> \
+          1. Blink It <br> \
+          2. Hardware Bites <br> \
+          3. Formula Zero <br> \
+          4. Tech Probe <br> \
+          5. Dexterity <br> \
+          6. 3D Mania <br> \
+          7. Campus Kart Clash <br> \
+          8. RapZap Prelims <br> \
+          9. Knowledge Knockout <br> \
+          10. Bits (Coding Contest) <br> \
+          11. Rockathon <br> \
+          12. Card Darshan <br> \
+          13. Web3 Idea-thon & Build-a-thon <br> \
+          14. Code Zeal <br> \
+          15. Tech Hunt <br> \
+          16. Brain Quest <br> \
+          17. Robo Soccer <br> \
+          18. Programmer's Playground <br> \
+          19. Technical Poster Making Competition <br> \
+          20. Appie <br> \
+          21. Puzzle Mania <br> \
+          22. JECRC Technoads <br> \
+          23. Pro-Lets <br> \
+          24. Technocrazy <br> \
+          25. Best Out Of Waste <br> \
+          26. Resin O'clock <br> \
+          27. Web Bro <br> \
+          28. Game of Drones <br> \
+          29. Situational Que <br> \
+          30. Crypto Mining <br> \
+          31. Subito <br> \
+          32. Robo Tug of War <br> \
+          33. Electroquizzer <br> \
+          34. Tech Spectrum <br> \
+          35. Virtual Vision <br> \
+          36. Flick (Short Film) <br>";
+                    break;
         case "Help":
           botResponse = "If you need further assistance, feel free to contact us at: +91 98765 43210";
           break;

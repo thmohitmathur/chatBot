@@ -22,6 +22,61 @@ Here are the events you can learn more about:
 2. <a href='#' class='chat-option' data-option='Splash Events'>Splash Events</a>
 3. <a href='#' class='chat-option' data-option='Technical Events'>Technical Events</a>
 
+
+
+About Technical events:
+only display this technical event
+When ask for technical event ask user which day technical details they want
+as per day specified give them below of these details
+
+and when giving the technical events display it as eventname IS EVENT and timming is TIME and the venus is VENUE and don't make table give output in numerical order(like 1 , 2, 3) and after each event give a line break
+
+TECHNICAL EVENTS HAPPENING ON (DAY 1) 			
+EVENT	TIME	VENUE	
+Blink It	10:00 AM - 12:00PM	Conf. Hall D-Block	
+Hardware Bites	10:00 AM - 2:00 PM	A block Labs	
+Formula Zero	10:00 AM - 3:00 PM	BH 2 Pathway
+Tech Probe	11:00 PM - 1:00 PM	A-Block Labs	
+Dexterity	11:00 AM - 2:00 PM	Basement C-Block	
+3D Mania	11:00 AM - 1:00 PM	DS-08	
+Campus Kart Clash	11:00 AM - 3:00 PM	A-Block Road	
+RapZap Prelims	12:30 PM - 2:30 PM	Nbc C-Block
+Knowledge Knockout	1:00 PM - 3:00 PM	D-Block Classroom
+Bits (Coding Contest) 2:00 PM - 4:00 PM DF-08
+Rockathon 2:00 PM - 5:00 PM  Main Stage
+Card Darshan  2:00 PM - 4:00 PM  CP-19,20
+Web3 Idea-thon & Build-a-thon 2:30 PM - 3:30 PM  Conf. Hall D-Block	
+
+TECHNICAL EVENTS HAPPENING ON (DAY 2) 			
+EVENT	TIME	VENUE	
+Code Zeal 9:00 AM - 12:00 PM A-Block Labs
+Tech Hunt 9:00 AM - 12:00 PM BLG-13
+Brain Quest 9:30 AM - 12:30 PM DT-01 & DT-03
+Robo Soccer 10:00 AM - 3:00 PM B-Block Front
+Programmer's Playground 12:00 PM - 2:00 PM  Conf. hall D-Block
+Technical Poster Making Competition 12:00 PM - 2:00 PM  BLG-06
+Appie 12:00 PM - 3:00 PM BLG-08
+Puzzle Mania 12:30 PM - 2:00 PM A-Block Labs
+JECRC Technoads 2:00 PM - 5:00 PM CS-21
+
+TECHNICAL EVENTS HAPPENING ON (DAY 3) 		
+EVENT	TIME	VENUE	
+Pro-Lets  8:30 AM - 11:30 AM  A-Block Labs
+Technocrazy  9:00 AM - 11:00 AM  BLG-14
+Best Out Of Waste 9:30 AM - 12:30 PM  Basement C-Block
+Resin O'clock 10:00 AM - 12:00 PM D-Block
+Web Bro 10:00 AM - 1:00 PM CS-21
+Game of Drones 11:00 AM - 4:00 PM GH Lawn
+Situational Que 11:00 AM - 1:00 PM Conf. Hall D-Block
+Crypto Mining 12:00 PM - 2:00 PM  CT-11, CT-12, CT-19
+Subito 12:00 PM - 3:00 PM A-Block Labs
+Robo Tug of War 12:00 PM - 5:00 PM B Block Front
+Electroquizzer 1:00 PM - 2:00 PM BLG-06
+Tech Spectrum 1:00 PM - 3:00 PM DT-07, DT-09
+Virtual Vision 1:30 PM - 2:30 PM Conf. Hall D-Block
+Flick (Short Film) 1:30 PM - 4:30 PM Seminar Hall- 501
+
+
 About Itinerary:
 When ask for itneary event ask user which day itenary details they want
 as per day specified give them below of these details
@@ -116,6 +171,7 @@ If you need further assistance, feel free to contact us at: +91 98765 43210
 
 About Celebrity:
 Coming soon
+
 
 About Cultural Event:
 
@@ -981,56 +1037,7 @@ Participation certificate will be given to all participants.
 
 
 
-Technical events:
-When ask for technical event ask user which day technical details they want
-as per day specified give them below of these details
 
-and when giving the technical events display it as eventname IS EVENT and timming is TIME and the venus is VENUE and don't make table give output in numerical order(like 1 , 2, 3) and after each event give a line break
-
-TECHNICAL EVENTS HAPPENING ON (DAY 1) 			
-EVENT	TIME	VENUE	
-Blink It	10:00 AM - 12:00PM	Conf. Hall D-Block	
-Hardware Bites	10:00 AM - 2:00 PM	A block Labs	
-Formula Zero	10:00 AM - 3:00 PM	BH 2 Pathway
-Tech Probe	11:00 PM - 1:00 PM	A-Block Labs	
-Dexterity	11:00 AM - 2:00 PM	Basement C-Block	
-3D Mania	11:00 AM - 1:00 PM	DS-08	
-Campus Kart Clash	11:00 AM - 3:00 PM	A-Block Road	
-RapZap Prelims	12:30 PM - 2:30 PM	Nbc C-Block
-Knowledge Knockout	1:00 PM - 3:00 PM	D-Block Classroom
-Bits (Coding Contest) 2:00 PM - 4:00 PM DF-08
-Rockathon 2:00 PM - 5:00 PM  Main Stage
-Card Darshan  2:00 PM - 4:00 PM  CP-19,20
-Web3 Idea-thon & Build-a-thon 2:30 PM - 3:30 PM  Conf. Hall D-Block	
-
-TECHNICAL EVENTS HAPPENING ON (DAY 2) 			
-EVENT	TIME	VENUE	
-Code Zeal 9:00 AM - 12:00 PM A-Block Labs
-Tech Hunt 9:00 AM - 12:00 PM BLG-13
-Brain Quest 9:30 AM - 12:30 PM DT-01 & DT-03
-Robo Soccer 10:00 AM - 3:00 PM B-Block Front
-Programmer's Playground 12:00 PM - 2:00 PM  Conf. hall D-Block
-Technical Poster Making Competition 12:00 PM - 2:00 PM  BLG-06
-Appie 12:00 PM - 3:00 PM BLG-08
-Puzzle Mania 12:30 PM - 2:00 PM A-Block Labs
-JECRC Technoads 2:00 PM - 5:00 PM CS-21
-
-TECHNICAL EVENTS HAPPENING ON (DAY 3) 		
-EVENT	TIME	VENUE	
-Pro-Lets  8:30 AM - 11:30 AM  A-Block Labs
-Technocrazy  9:00 AM - 11:00 AM  BLG-14
-Best Out Of Waste 9:30 AM - 12:30 PM  Basement C-Block
-Resin O'clock 10:00 AM - 12:00 PM D-Block
-Web Bro 10:00 AM - 1:00 PM CS-21
-Game of Drones 11:00 AM - 4:00 PM GH Lawn
-Situational Que 11:00 AM - 1:00 PM Conf. Hall D-Block
-Crypto Mining 12:00 PM - 2:00 PM  CT-11, CT-12, CT-19
-Subito 12:00 PM - 3:00 PM A-Block Labs
-Robo Tug of War 12:00 PM - 5:00 PM B Block Front
-Electroquizzer 1:00 PM - 2:00 PM BLG-06
-Tech Spectrum 1:00 PM - 3:00 PM DT-07, DT-09
-Virtual Vision 1:30 PM - 2:30 PM Conf. Hall D-Block
-Flick (Short Film) 1:30 PM - 4:30 PM Seminar Hall- 501
 
 
 
