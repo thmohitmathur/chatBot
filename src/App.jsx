@@ -139,7 +139,7 @@ const App = () => {
 
       {/* Chatbot Toggler Button */}
       <button onClick={handleTogglerClick} id="chatbot-toggler">
-        <ChatbotIcon />
+        <ChatbotIcon size={80} />
       </button>
 
       {/* Chatbot Popup */}
@@ -147,7 +147,7 @@ const App = () => {
         {/* Chatbot Header */}
         <div className="chat-header">
           <div className="header-info">
-            <ChatbotIcon />
+            <ChatbotIcon size={50}/>
             <h2 className="logo-text">RENA</h2>
           </div>
           <button onClick={handleTogglerClick} className="material-symbols-rounded">
