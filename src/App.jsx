@@ -23,7 +23,7 @@ const App = () => {
   // Function to handle chatbot toggler click
   const handleTogglerClick = () => {
     setShowChatbot((prev) => !prev);
-    setShowNotification(false);
+    setShowNotification(false); // Hide notification when chatbot is opened
   };
 
   // Function to handle button clicks
@@ -88,7 +88,7 @@ const App = () => {
           34. Tech Spectrum <br> \
           35. Virtual Vision <br> \
           36. Flick (Short Film) <br>";
-                    break;
+          break;
         case "Help":
           botResponse = "If you need further assistance, feel free to contact us at: +91 98765 43210";
           break;
@@ -126,6 +126,16 @@ const App = () => {
       });
     };
   }, [chatHistory]); // Re-attach listeners when chat history changes
+
+  // Add a timeout to hide the notification after 4 seconds
+  useEffect(() => {
+    const notificationTimeout = setTimeout(() => {
+      setShowNotification(false);
+    }, 10000); // 10 seconds
+
+    // Cleanup the timeout on component unmount
+    return () => clearTimeout(notificationTimeout);
+  }, []); // Run only once on component mount
 
   const generateBotResponse = async (history) => {
     // Format chat history for API request
@@ -183,7 +193,7 @@ const App = () => {
         {/* Chatbot Header */}
         <div className="chat-header">
           <div className="header-info">
-            <ChatbotIcon size={50}/>
+            <ChatbotIcon size={50} />
             <h2 className="logo-text">RENA</h2>
           </div>
           <button onClick={handleTogglerClick} className="material-symbols-rounded">
