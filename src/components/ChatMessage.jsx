@@ -11,7 +11,7 @@ const ChatMessage = ({ chat }) => {
     const urlRegex = /(https?:\/\/[^\s]+)/g;
 
     return text.replace(urlRegex, (match) => {
-      return `<a href="${match}" target="_blank" rel="noopener noreferrer" class="chat-link">🔗 Visit here</a>`;
+      return `<a href="${match}" target="_blank" rel="noopener noreferrer" class="chat-link"> Visit here</a>`;
     });
   };
 

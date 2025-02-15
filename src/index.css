@@ -11,9 +11,20 @@
 body{
     font-family: "Inter", serif;
     width: 100%;
-    min-height: 100vh;
+    min-height: 300vh;
     background: url('./assets/aibg.jpg');
     background-repeat: no-repeat;
+}
+
+body.show-chatbot {
+    overflow: hidden;
+}
+
+.chat-body {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #303538 transparent;
+    overscroll-behavior: contain; /* Prevent scroll chaining */
 }
 
 #chatbot-toggler {
@@ -308,14 +319,19 @@ body{
 /* Chat link styling */
 .chat-link {
     color: white;
-    background-color: #38383e;
+    text-decoration: underline;
     padding: 4px 8px;
     border-radius: 5px;
-    text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    margin-top: 5px;
-  }
+    margin: 5px 0;
+        /* border-bottom: 1px solid #fff; */
+    cursor: pointer;
+    transform: .3s;  }
+
+    .chat-link:hover{
+        color: #00c3ff;
+    }
   
   /* Chat option button styling */
   .chat-option {
@@ -331,6 +347,14 @@ body{
   }
 
   .chat-option:hover{
+    color: #00c3ff;
+  }
+
+  .chat-body a{
+    color: #fff;
+    transition: .3s;
+  }
+  .chat-body a:hover{
     color: #00c3ff;
   }
   

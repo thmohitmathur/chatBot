@@ -23,8 +23,26 @@ const App = () => {
   // Function to handle chatbot toggler click
   const handleTogglerClick = () => {
     setShowChatbot((prev) => !prev);
-    setShowNotification(false); // Hide notification when chatbot is opened
-  };
+    setShowNotification(false);
+    document.body.classList.toggle("show-chatbot");
+};
+
+useEffect(() => {
+    const chatBody = chatBodyRef.current;
+    const handleScroll = (event) => {
+        event.stopPropagation();
+    };
+
+    if (chatBody) {
+        chatBody.addEventListener('scroll', handleScroll);
+    }
+
+    return () => {
+        if (chatBody) {
+            chatBody.removeEventListener('scroll', handleScroll);
+        }
+    };
+}, []);
 
   // Function to handle button clicks
   const handleButtonClick = (option) => {
@@ -33,13 +51,13 @@ const App = () => {
       ...prev,
       { role: "user", text: option },
     ]);
-
+  
     // Simulate the bot's response after a short delay
     setTimeout(() => {
       let botResponse = "";
       switch (option) {
         case "About Renaissance":
-          botResponse = "Renaissance is the National Techno-Cultural Fest of JECRC College, featuring a blend of technical and cultural events that showcase talent and innovation. Would you like to know more about specific events?";
+          botResponse = "Renaissance, the prestigious Annual Techno-Cultural Youth Fest of Jaipur Engineering College & Research Center (JECRC), is one of the largest college festivals in Rajasthan, spanning three exhilarating days each year. As a nationally recognized platform, it showcases exceptional talent in music, dance, drama, coding, and high-energy competitions, fostering creativity and innovation among students.Organized by students, for students, under the guidance of the Management Team and Student Council,<br> Renaissance requires over two months of dedication and effort to deliver an unforgettable experience. In 2025, the fest will take place from 6th March to 8th March, with 'Day Zero' set for 5th March for the second time.<br/>This grand festival boasts an average daily footfall of over 8,000 students, attracting participants from 97 premier institutions nationwide, making it a truly diverse and competitive platform. Over the years, Renaissance has welcomed more than 20 renowned personalities, including Lt. Jagjit Singh, Shubha Mudgal, Euphoria, Javed Ali, Grammy Award Winner Pt. Vishwa Mohan Bhatt, Nobel Laureate Kailash Satyarthi, Ranbir Kapoor, Abhishek Bachchan, Millind Gaba, Harsh Gujral, Arjun Kanungo, Parmish Verma, Ravi Gupta, and many more.The presence of such distinguished guests adds immense excitement and glamour, enriching the festival's legacy with each edition. Renaissance is not just a fest; it is a celebration of talent, passion, and excellence, making it a truly inspiring event for students across the country.";
           break;
         case "About Events":
           botResponse = "Here are the events you can learn more about: <br> 1. <a href='#' class='chat-option' data-option='Cultural Events'>Cultural Events</a> <br> 2. <a href='#' class='chat-option' data-option='Splash Events'>Splash Events</a> <br> 3. <a href='#' class='chat-option' data-option='Technical Events'>Technical Events</a>";
@@ -90,12 +108,34 @@ const App = () => {
           36. Flick (Short Film) <br>";
           break;
         case "Help":
-          botResponse = "If you need further assistance, feel free to contact us at: +91 98765 43210";
+          botResponse = "What kind of help do you need? <br> 1. <a href='#' class='chat-option' data-option='Website Related Issue'>Website Related Issue</a> <br> 2. <a href='#' class='chat-option' data-option='Event Related Issue'>Event Related Issue</a>";
+          break;
+        case "Website Related Issue":
+          botResponse = "For website-related issues, please contact: <br>Akshat Bindal: +91 78774 00300 <br>Apeksh Gupta: +91 73579 29787 <br>Aryan Jain: +91 93528 17420";
+          break;
+        case "Event Related Issue":
+          botResponse = "For event-related issues, please contact: <br> \
+          1. <a href='#' class='chat-option' data-option='Splash Events Contact'>Splash Events</a> <br> \
+          2. <a href='#' class='chat-option' data-option='Technical Events Contact'>Technical Events</a> <br> \
+          3. <a href='#' class='chat-option' data-option='Operations Contact'>Operations</a> <br> \
+          4. <a href='#' class='chat-option' data-option='Cultural Events Contact'>Cultural Events</a>";
+          break;
+        case "Splash Events Contact":
+          botResponse = "For Splash Events, contact: <br>Anshul Verma: +91 63789 17672";
+          break;
+        case "Technical Events Contact":
+          botResponse = "For Technical Events, contact: <br>Saksham Saraf: +91 97727 71754";
+          break;
+        case "Operations Contact":
+          botResponse = "For Operations, contact: <br>Yatharth Rajvanshi: +91 80003 96600";
+          break;
+        case "Cultural Events Contact":
+          botResponse = "For Cultural Events, contact: <br>Dev Saxena: +91 86022 55154";
           break;
         default:
           botResponse = "I'm sorry, I didn't understand that. Could you please clarify?";
       }
-
+  
       // Add the bot's response to the chat history
       setChatHistory((prev) => [
         ...prev,
@@ -107,18 +147,19 @@ const App = () => {
   // Add event listeners for button clicks
   useEffect(() => {
     const handleOptionClick = (event) => {
+      event.preventDefault(); // Prevent the default anchor behavior
       const option = event.target.getAttribute("data-option");
       if (option) {
         handleButtonClick(option);
       }
     };
-
+  
     // Attach event listeners to all buttons with the class 'chat-option'
     const buttons = document.querySelectorAll(".chat-option");
     buttons.forEach((button) => {
       button.addEventListener("click", handleOptionClick);
     });
-
+  
     // Cleanup event listeners on component unmount
     return () => {
       buttons.forEach((button) => {
@@ -126,16 +167,6 @@ const App = () => {
       });
     };
   }, [chatHistory]); // Re-attach listeners when chat history changes
-
-  // Add a timeout to hide the notification after 4 seconds
-  useEffect(() => {
-    const notificationTimeout = setTimeout(() => {
-      setShowNotification(false);
-    }, 10000); // 10 seconds
-
-    // Cleanup the timeout on component unmount
-    return () => clearTimeout(notificationTimeout);
-  }, []); // Run only once on component mount
 
   const generateBotResponse = async (history) => {
     // Format chat history for API request
@@ -178,7 +209,8 @@ const App = () => {
       {/* Notification Prompt */}
       {showNotification && (
         <div className="chatbot-notification">
-          <p>How can I help you? Let's chat!</p>
+          <p>Hi, I’m Rena! How can I make your day better?
+          </p>
           <button onClick={handleTogglerClick} className="close-notification"></button>
         </div>
       )}
@@ -193,7 +225,7 @@ const App = () => {
         {/* Chatbot Header */}
         <div className="chat-header">
           <div className="header-info">
-            <ChatbotIcon size={50} />
+            <ChatbotIcon size={50}/>
             <h2 className="logo-text">RENA</h2>
           </div>
           <button onClick={handleTogglerClick} className="material-symbols-rounded">
