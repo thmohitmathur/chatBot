@@ -1,4 +1,4 @@
-import ChatbotIcon from "./chatbotIcon";
+import ChatbotIcon from "./ChatbotIcon";
 
 const ChatMessage = ({ chat }) => {
   const formatMessage = (text) => {
